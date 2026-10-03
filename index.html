@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Vernity | Clan competitivo de TSB</title>
+<script>try{var t=JSON.parse(localStorage.getItem('v_th'));if(t)document.documentElement.dataset.theme=t}catch(e){}</script>
+<meta name="description" content="Vernity es un clan competitivo de The Strongest Battlegrounds (TSB), afiliado a TSBL. Spars, training, tryouts y torneos en portugués, español e inglés."><meta name="robots" content="index,follow"><meta name="theme-color" content="#02030c">
+<meta property="og:type" content="website"><meta property="og:site_name" content="Vernity"><meta property="og:title" content="Vernity | Clan competitivo de TSB"><meta property="og:description" content="Vernity es un clan competitivo de The Strongest Battlegrounds (TSB), afiliado a TSBL. Spars, training, tryouts y torneos en portugués, español e inglés.">
+<meta name="twitter:card" content="summary"><meta name="twitter:title" content="Vernity | Clan competitivo de TSB"><meta name="twitter:description" content="Vernity es un clan competitivo de The Strongest Battlegrounds (TSB), afiliado a TSBL. Spars, training, tryouts y torneos en portugués, español e inglés.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%231f3bff'/%3E%3Cstop offset='1' stop-color='%2338c8ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Cpath d='M16 18l16 30 16-30' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E"><link rel="apple-touch-icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%231f3bff'/%3E%3Cstop offset='1' stop-color='%2338c8ff'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23g)'/%3E%3Cpath d='M16 18l16 30 16-30' fill='none' stroke='white' stroke-width='7' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Organization","name":"Vernity","description":"Clan competitivo de The Strongest Battlegrounds afiliado a TSBL","foundingDate":"2026-09-02","founder":{"@type":"Person","name":"rralofear"},"sameAs":["https://discord.gg/FTcVa7kH9"]}</script>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#02030c;--bg2:#050818;--card:#090d26;--line:#16205c;--tx:#eef3ff;--mut:#8f9bd1;--a:#1f3bff;--b:#38c8ff;--glow:rgba(31,59,255,.45);--ok:#2ee59d;--er:#ff5d7a;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f2f5ff;--bg2:#e6ebff;--card:#fff;--line:#cdd6f7;--tx:#0a1033;--mut:#4b5688;--glow:rgba(31,59,255,.22)}}
+:root[data-theme="light"]{--bg:#f2f5ff;--bg2:#e6ebff;--card:#fff;--line:#cdd6f7;--tx:#0a1033;--mut:#4b5688;--glow:rgba(31,59,255,.22)}
+html{font-size:16px;scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 74px)}
+*{box-sizing:border-box;margin:0}
+body{background:var(--bg);color:var(--tx);font:400 1rem/1.6 'DM Sans',system-ui,sans-serif;overflow-x:hidden;transition:background .3s}
+h1,h2,h3{font-family:'Bricolage Grotesque','DM Sans',system-ui,sans-serif;line-height:1.1;letter-spacing:-.02em}
+a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--b);outline-offset:3px}
+.i{width:1.25em;height:1.25em;fill:none;stroke:currentColor;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;flex:none}
+.skip{position:absolute;left:-999px;top:8px;background:var(--a);color:#fff;padding:.5rem 1rem;border-radius:8px;z-index:99}.skip:focus{left:8px}
+#ld{position:fixed;inset:0;z-index:100;background:var(--bg);display:grid;place-content:center;gap:1.2rem;text-align:center;animation:out .4s 2.2s forwards}
+#ld b{font:800 2.6rem 'Bricolage Grotesque',sans-serif}
+#ld div{width:220px;height:5px;background:var(--line);border-radius:9px;overflow:hidden}
+#ld i{display:block;height:100%;width:0;background:linear-gradient(90deg,var(--a),var(--b));transition:width 1s ease}
+@keyframes out{to{opacity:0;visibility:hidden}}
+#sp{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--a),var(--b));z-index:60}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:50;background:color-mix(in srgb,var(--bg) 82%,transparent);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+.wrap{max-width:1040px;margin:0 auto;padding:0 22px}
+nav .wrap{display:flex;align-items:center;gap:.6rem;height:62px}
+.logo{font:800 1.3rem 'Bricolage Grotesque',sans-serif;display:flex;gap:.55rem;align-items:center;margin-right:auto}
+.logo i{display:grid;place-items:center;width:32px;height:32px;border-radius:10px;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;font-style:normal;box-shadow:0 0 18px var(--glow)}
+.links{display:flex;gap:1.3rem;color:var(--mut);font-size:.92rem;margin-right:.8rem}.links a:hover{color:var(--tx)}
+.ib{display:grid;place-items:center;width:40px;height:40px;border-radius:11px;border:1px solid var(--line);background:var(--card);cursor:pointer;transition:border-color .2s,transform .2s}
+.ib:hover{border-color:var(--b);transform:translateY(-2px)}
+#mb{display:none}
+.btn{display:inline-flex;align-items:center;gap:.5rem;padding:.8rem 1.4rem;border-radius:12px;font-weight:700;border:0;cursor:pointer;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 32px var(--glow)}
+.btn.g{background:transparent;border:1px solid var(--line);color:var(--tx)}.btn.g:hover{border-color:var(--b);box-shadow:none}
+.btn.s{padding:.55rem 1rem;font-size:.9rem}
+#dr{position:fixed;inset:0 0 0 auto;width:min(300px,82vw);background:var(--card);border-left:1px solid var(--line);z-index:70;padding:calc(env(safe-area-inset-top,0px) + 20px) 22px 22px;display:flex;flex-direction:column;gap:1rem;transform:translateX(105%);transition:transform .3s}
+#dr.o{transform:none}#dr a{padding:.7rem 0;border-bottom:1px solid var(--line);font-weight:500}
+#ov{position:fixed;inset:0;background:rgba(0,0,0,.6);z-index:65;opacity:0;visibility:hidden;transition:.3s}#ov.o{opacity:1;visibility:visible}
+.hero{text-align:center;padding:100px 0 80px;background:radial-gradient(60% 60% at 50% 0%,var(--glow),transparent 70%)}
+.tag{display:inline-flex;gap:.5rem;align-items:center;border:1px solid var(--line);background:var(--card);border-radius:99px;padding:.4rem 1rem;font-size:.88rem;color:var(--mut);margin-bottom:1.6rem}
+.hero h1{font-size:clamp(3.4rem,13vw,7.5rem);font-weight:800;background:linear-gradient(120deg,var(--tx) 25%,var(--b));-webkit-background-clip:text;background-clip:text;color:transparent;filter:drop-shadow(0 0 28px var(--glow))}
+.hero p{max-width:540px;margin:1.3rem auto 2rem;color:var(--mut);font-size:1.1rem}
+.row{display:flex;gap:.8rem;justify-content:center;flex-wrap:wrap}
+#cd{display:flex;justify-content:center;gap:12px;margin-top:3rem}
+#cd div{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:.8rem 0;width:78px}
+#cd b{display:block;font:800 1.8rem 'Bricolage Grotesque',sans-serif;color:var(--b)}#cd span{font-size:.8rem;color:var(--mut)}
+#cl{margin-top:.8rem;color:var(--mut);font-size:.9rem}
+section{padding:78px 0}.alt{background:var(--bg2)}
+h2{font-size:clamp(1.9rem,5vw,2.7rem);margin-bottom:.6rem;display:flex;gap:.7rem;align-items:center}
+h2 .i{color:var(--b);width:1.1em;height:1.1em}
+.lead{color:var(--mut);max-width:620px;margin-bottom:2rem}
+.grid{display:grid;gap:16px;grid-template-columns:repeat(auto-fit,minmax(230px,1fr))}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:26px;transition:transform .25s,border-color .25s,box-shadow .25s}
+.card:hover{transform:translateY(-4px);border-color:var(--a);box-shadow:0 14px 40px var(--glow)}
+.card .ic{display:grid;place-items:center;width:48px;height:48px;border-radius:14px;background:linear-gradient(135deg,var(--a),var(--b));color:#fff;margin-bottom:1rem}
+.card h3{font-size:1.18rem;margin-bottom:.35rem}.card p{color:var(--mut);font-size:.95rem}
+.split{display:grid;gap:30px;grid-template-columns:1.05fr 1fr;align-items:start}
+.info{background:var(--card);border:1px solid var(--line);border-radius:18px;overflow:hidden}
+.info div{display:flex;justify-content:space-between;gap:1rem;padding:15px 22px;border-bottom:1px solid var(--line)}.info div:last-child{border:0}
+.info span{color:var(--mut)}.info b{text-align:right;overflow-wrap:anywhere}
+.chip{display:inline-flex;gap:.4rem;background:var(--card);border:1px solid var(--line);border-radius:99px;padding:.5rem 1.1rem;font-weight:500;cursor:pointer}
+.chip.on{background:var(--a);border-color:var(--a);color:#fff}
+.chips{display:flex;gap:.6rem;flex-wrap:wrap;margin:1rem 0}
+.fld{width:100%;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.8rem 1rem}.fld:focus{border-color:var(--b);outline:0}
+details{background:var(--card);border:1px solid var(--line);border-radius:14px;margin-bottom:10px}
+summary{cursor:pointer;padding:16px 20px;font-weight:700;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+summary::after{content:'+';color:var(--b);font-size:1.3rem;line-height:1}details[open] summary::after{content:'–'}
+details p{padding:0 20px 18px;color:var(--mut)}
+.goal{display:flex;gap:1rem;align-items:center;margin-bottom:12px}
+.tool{display:grid;gap:12px}.tool h3{display:flex;gap:.5rem;align-items:center}
+#sw{font:800 2.6rem 'Bricolage Grotesque',monospace;color:var(--b);font-variant-numeric:tabular-nums}
+#pr li{display:flex;justify-content:space-between;align-items:center;gap:1rem;background:var(--bg2);border-radius:10px;padding:.6rem .9rem;margin-top:8px;list-style:none}
+#pr{padding:0}
+.msg{font-size:.9rem;min-height:1.3em}.er{color:var(--er)}.ok{color:var(--ok)}
+.soon{opacity:.7}
+.final{text-align:center;background:radial-gradient(55% 90% at 50% 100%,var(--glow),transparent 70%)}
+.final p{color:var(--mut);margin:.4rem 0 1.8rem}.final h2{justify-content:center}
+footer{border-top:1px solid var(--line);padding:24px 0;color:var(--mut);font-size:.88rem}
+footer .wrap{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap}
+#up{position:fixed;right:18px;bottom:calc(env(safe-area-inset-bottom,0px) + 18px);z-index:55;opacity:0;visibility:hidden;transform:translateY(10px);transition:.3s}#up.v{opacity:1;visibility:visible;transform:none}
+#ts{position:fixed;left:50%;transform:translateX(-50%);top:calc(env(safe-area-inset-top,0px) + 74px);z-index:90;display:grid;gap:8px;width:min(92vw,380px)}
+.t{display:flex;gap:.6rem;align-items:center;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--ok);border-radius:12px;padding:.8rem 1rem;box-shadow:0 10px 30px rgba(0,0,0,.4);animation:in .3s}
+.t.er{border-left-color:var(--er)}@keyframes in{from{opacity:0;transform:translateY(-10px)}}
+dialog{margin:auto;background:var(--card);color:var(--tx);border:1px solid var(--line);border-radius:18px;padding:26px;max-width:min(92vw,380px)}
+dialog::backdrop{background:rgba(0,0,0,.65)}dialog p{margin:.5rem 0 1.4rem;color:var(--mut)}
+.rv{opacity:0;transform:translateY(16px);transition:opacity .6s,transform .6s}.rv.in{opacity:1;transform:none}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important;scroll-behavior:auto!important}#ld{display:none}}
+@media (max-width:760px){.links{display:none}#mb{display:grid}.split{grid-template-columns:1fr}.hero{padding:64px 0 56px}section{padding:56px 0}#cd div{width:68px}}
+.chat{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:16px;max-width:640px}
+#cm{height:280px;overflow-y:auto;display:flex;flex-direction:column;gap:8px;padding:6px}
+.b{max-width:82%;padding:.6rem .9rem;border-radius:14px;background:var(--bg2);overflow-wrap:anywhere}
+.b.me{align-self:flex-end;background:linear-gradient(135deg,var(--a),var(--b));color:#fff}
+.b.sys{align-self:center;background:transparent;color:var(--er);font-size:.88rem;border:1px dashed var(--er);text-align:center}
+#cf{display:flex;gap:8px;margin-top:10px}#cf .btn{padding:0 1rem}
+.cmeta{display:flex;justify-content:space-between;gap:1rem;flex-wrap:wrap;color:var(--mut);font-size:.8rem;margin-top:8px}
+#cg{text-align:center;padding:14px;display:grid;gap:8px;justify-items:center}#cg p{color:var(--mut)}
+.note{display:flex;gap:.8rem;align-items:flex-start;background:var(--bg2);border:1px solid var(--b);border-radius:14px;padding:14px 16px;margin:0 0 1.4rem}.note .i{color:var(--b);margin-top:.2rem}.note p{color:var(--mut);font-size:.95rem}.note b{color:var(--tx)}
+</style>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="sword" viewBox="0 0 24 24"><path d="M14.5 17.5 3.5 6.5V3h3.5l11 11M13 19l6-6M16 16l4 4M19 21l2-2"/></symbol>
+<symbol id="target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/></symbol>
+<symbol id="medal" viewBox="0 0 24 24"><circle cx="12" cy="15" r="5"/><path d="M8.5 11 6 3h4l2 4 2-4h4l-2.5 8"/></symbol>
+<symbol id="shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/></symbol>
+<symbol id="globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></symbol>
+<symbol id="trophy" viewBox="0 0 24 24"><path d="M8 4h8v5a4 4 0 0 1-8 0zM8 6H4v1a4 4 0 0 0 4 4M16 6h4v1a4 4 0 0 1-4 4M12 13v4M8 21h8M10 17h4"/></symbol>
+<symbol id="chart" viewBox="0 0 24 24"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></symbol>
+<symbol id="heart" viewBox="0 0 24 24"><path d="M12 20s-8-5-8-11a4.5 4.5 0 0 1 8-2.5A4.5 4.5 0 0 1 20 9c0 6-8 11-8 11z"/></symbol>
+<symbol id="rocket" viewBox="0 0 24 24"><path d="M5 15c-1 1-2 4-2 6 2 0 5-1 6-2M14 4c4 0 6 2 6 6-2 4-5 7-9 8l-5-5c1-4 4-7 8-9z"/></symbol>
+<symbol id="compass" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m15.5 8.5-2 5-5 2 2-5z"/></symbol>
+<symbol id="chat" viewBox="0 0 24 24"><path d="M4 5h16v11H9l-5 4z"/></symbol>
+<symbol id="clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></symbol>
+<symbol id="search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="6"/><path d="m16 16 4 4"/></symbol>
+<symbol id="sun" viewBox="0 0 24 24"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M2 12h2M20 12h2M5 5l1.5 1.5M17.5 17.5 19 19M5 19l1.5-1.5M17.5 6.5 19 5"/></symbol>
+<symbol id="moon" viewBox="0 0 24 24"><path d="M20 14a8 8 0 1 1-10-10 6.5 6.5 0 0 0 10 10z"/></symbol>
+<symbol id="menu" viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16"/></symbol>
+<symbol id="x" viewBox="0 0 24 24"><path d="m6 6 12 12M18 6 6 18"/></symbol>
+<symbol id="copy" viewBox="0 0 24 24"><rect x="9" y="9" width="11" height="11" rx="2"/><path d="M5 15V6a2 2 0 0 1 2-2h8"/></symbol>
+<symbol id="share" viewBox="0 0 24 24"><path d="M12 15V4M8 8l4-4 4 4M5 13v6h14v-6"/></symbol>
+<symbol id="up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+<symbol id="check" viewBox="0 0 24 24"><path d="m5 12 5 5 9-10"/></symbol>
+<symbol id="trash" viewBox="0 0 24 24"><path d="M4 7h16M9 7V4h6v3M6 7l1 13h10l1-13"/></symbol>
+<symbol id="book" viewBox="0 0 24 24"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2zM4 19a2 2 0 0 1 2-2h13"/></symbol>
+<symbol id="alert" viewBox="0 0 24 24"><path d="M12 3 2 20h20zM12 10v4M12 17v.01"/></symbol>
+<symbol id="dice" viewBox="0 0 24 24"><rect x="4" y="4" width="16" height="16" rx="3"/><path d="M9 9h.01M15 9h.01M9 15h.01M15 15h.01M12 12h.01"/></symbol>
+<symbol id="text" viewBox="0 0 24 24"><path d="M4 19 9 5l5 14M6 14h6M16 19l2.5-7 2.5 7M17 17h3"/></symbol>
+<symbol id="tool" viewBox="0 0 24 24"><path d="M14 6a4 4 0 0 0 5 5l-9 9a2.1 2.1 0 0 1-3-3l9-9a4 4 0 0 0-2-2z"/></symbol>
+<symbol id="user" viewBox="0 0 24 24"><circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/></symbol>
+<symbol id="send" viewBox="0 0 24 24"><path d="M4 12 20 4l-4 16-4-7z"/></symbol><symbol id="bell" viewBox="0 0 24 24"><path d="M6 16v-5a6 6 0 0 1 12 0v5l2 2H4zM10 21h4"/></symbol></defs></svg>
+
+<div id="ld" role="status"><b>Vernity</b><div><i id="lb"></i></div></div>
+<div id="sp"></div>
+<a class="skip" href="#main">Saltar al contenido</a>
+<div id="ts" aria-live="polite"></div>
+
+<nav><div class="wrap">
+<a class="logo" href="#top"><i><svg class="i"><use href="#sword"/></svg></i>Vernity</a>
+<div class="links"><a href="#origen">Origen</a><a href="#ofrecemos">Ofrecemos</a><a href="#normas">Normativas</a><a href="#spar">Spar Zone</a><a href="#tryout">Tryout</a></div>
+<button class="ib" id="fs" aria-label="Cambiar tamaño de texto" title="Tamaño de texto"><svg class="i"><use href="#text"/></svg></button>
+<button class="ib" id="th" aria-label="Cambiar tema (T)" title="Tema (T)"><svg class="i"><use href="#moon"/></svg></button>
+<button class="ib" id="mb" aria-label="Abrir menú" aria-expanded="false" aria-controls="dr"><svg class="i"><use href="#menu"/></svg></button>
+</div></nav>
+<div id="ov"></div>
+<aside id="dr" aria-label="Menú"><button class="ib" id="dx" aria-label="Cerrar menú" style="align-self:flex-end"><svg class="i"><use href="#x"/></svg></button>
+<a href="#origen">Origen</a><a href="#ofrecemos">Ofrecemos</a><a href="#normas">Normativas</a><a href="#spar">Spar Zone</a><a href="#tryout">Tryout</a><a href="https://discord.gg/FTcVa7kH9">Unirse al Discord</a></aside>
+
+<main id="main">
+<header class="hero" id="top"><div class="wrap">
+<span class="tag"><svg class="i"><use href="#sword"/></svg>Competitivo de The Strongest Battlegrounds</span>
+<h1>Vernity</h1>
+<p>Un clan serio para prepararte, entrenar y competir de verdad. Afiliado a TSBL.</p>
+<div class="row"><a class="btn" href="https://discord.gg/FTcVa7kH9"><svg class="i"><use href="#rocket"/></svg>Unirse a Vernity</a><a class="btn g" href="https://discord.gg/tsbl"><svg class="i"><use href="#globe"/></svg>Discord de TSBL</a></div>
+<div class="row" style="margin-top:2.4rem"><span class="tag" style="margin:0"><svg class="i"><use href="#clock"/></svg>Fundación: 2 de septiembre de 2026</span><span class="tag" style="margin:0"><svg class="i"><use href="#globe"/></svg>PT · ES · EN</span></div>
+</div></header>
+
+<section id="origen"><div class="wrap split">
+<div class="rv"><h2><svg class="i"><use href="#book"/></svg>Nuestro origen</h2>
+<p class="lead">Vernity nace con un solo foco: el competitivo real de TSB. Cada entrenamiento, cada spar y cada tryout apunta al mismo lugar. Somos una comunidad multilingüe en portugués, español e inglés, afiliada a TSBL.</p>
+<div class="row" style="justify-content:flex-start"><button class="btn s" id="cp"><svg class="i"><use href="#copy"/></svg>Copiar invitación</button><button class="btn s g" id="sh"><svg class="i"><use href="#share"/></svg>Compartir</button></div></div>
+<div class="info rv"><div><span>Fundado</span><b>2 de septiembre de 2026</b></div><div><span>Fundador</span><b>rralofear</b></div><div><span>Afiliación</span><b><a href="https://discord.gg/tsbl" target="_blank" rel="noopener noreferrer">TSBL</a></b></div><div><span>Idiomas</span><b>PT · ES · EN</b></div><div><span>Servidor</span><b>discord.gg/FTcVa7kH9</b></div></div>
+</div></section>
+
+<section class="alt" id="ofrecemos"><div class="wrap">
+<h2 class="rv"><svg class="i"><use href="#target"/></svg>Camino al competitivo</h2>
+<p class="lead rv">Todo para pasar del nivel casual al competitivo, paso a paso, en una comunidad activa pero tranquila.</p>
+<div class="grid">
+<div class="card rv"><div class="ic"><svg class="i"><use href="#sword"/></svg></div><h3>Spars constantes</h3><p>Enfrentamientos regulares para medir tu nivel y corregir errores en tiempo real.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#target"/></svg></div><h3>Training dirigido</h3><p>Sesiones pensadas para llevarte al nivel competitivo con una guía clara.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#medal"/></svg></div><h3>Tryouts</h3><p>Pruebas para evaluar tu progreso y abrirte la puerta a roles dentro del clan.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#trophy"/></svg></div><h3>Torneos y tops</h3><p>Competí en torneos y medirte en tops organizados contra otros clanes.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#chart"/></svg></div><h3>Seguimiento personal</h3><p>Acompañamiento en tu progreso, con reconocimiento por logros y constancia.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#heart"/></svg></div><h3>Ambiente sano</h3><p>Sin toxicidad ni presión innecesaria, con compañeros siempre disponibles.</p></div>
+</div></div></section>
+
+
+<section id="normas"><div class="wrap">
+<h2 class="rv"><svg class="i"><use href="#shield"/></svg>Normativas</h2>
+<p class="lead rv">Buscá una norma o filtrá por categoría. Tocá una para ver el detalle.</p>
+<label for="q" class="rv" style="position:relative;display:block"><input class="fld" id="q" type="search" placeholder="Buscar normas (atajo: /)" autocomplete="off"></label>
+<div class="chips" id="cats" role="group" aria-label="Categorías"></div>
+<div id="rl"></div><p class="msg" id="nr" hidden>Sin resultados. Probá con otra palabra o categoría.</p>
+</div></section>
+<section class="alt" id="spar"><div class="wrap">
+<h2 class="rv"><svg class="i"><use href="#sword"/></svg>Spar Zone</h2>
+<p class="lead rv">Una zona PvP para enfrentarte de forma amistosa contra otros miembros de la comunidad.</p>
+<div class="grid">
+<div class="card rv"><div class="ic"><svg class="i"><use href="#sword"/></svg></div><h3>Combates amistosos</h3><p>Medirte contra otros miembros, practicá y mejorá tu nivel sin presión.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#bell"/></svg></div><h3>Avisos de sparring</h3><p>Activá las notificaciones en el Discord y recibí un aviso cada vez que alguien busque un spar.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#chat"/></svg></div><h3>Canal exclusivo</h3><p>Al activar los avisos se te habilita un canal solo para estos encuentros.</p></div>
+<div class="card rv"><div class="ic"><svg class="i"><use href="#clock"/></svg></div><h3>Un pedido cada 10 minutos</h3><p>Podés buscar spar cada 10 minutos. Si mencionás solo para fastidiar a los demás, te sancionamos.</p></div>
+</div>
+<div class="row rv" style="margin-top:2rem"><a class="btn" id="sparlink" href="https://discord.gg/FTcVa7kH9"><svg class="i"><use href="#sword"/></svg>Entrar al Spar Zone</a></div>
+</div></section>
+
+
+<section id="tryout"><div class="wrap split">
+<div class="rv"><h2><svg class="i"><use href="#medal"/></svg>Solicitar tryout</h2>
+<p class="lead">Completá tus datos y copiá la solicitud para pegarla en el Discord. Tu historial se guarda solo en este navegador.</p>
+<div class="note"><svg class="i"><use href="#alert"/></svg><p><b>Sin boost, por esta vez.</b> Los tryouts privados normalmente requieren boost, pero como todavía hay pocos miembros se permiten sin boost solo en esta ocasión.</p></div>
+<form id="fm" novalidate style="display:grid;gap:12px">
+<input class="fld" id="fn" placeholder="Tu usuario de Roblox" maxlength="20" aria-label="Usuario de Roblox">
+<select class="fld" id="fl" aria-label="Idioma"><option>Español</option><option>Português</option><option>English</option></select>
+<textarea class="fld" id="fmsg" rows="3" maxlength="200" placeholder="Contanos tu experiencia en TSB (opcional)"></textarea>
+<p class="msg" id="fe" role="alert"></p>
+<button class="btn" type="submit"><svg class="i"><use href="#check"/></svg>Guardar y copiar</button></form></div>
+<div class="rv"><h3 style="margin-bottom:.4rem">Historial</h3><ul id="pr2" style="padding:0"></ul><p class="msg" id="he">Todavía no guardaste solicitudes.</p><button class="btn s g" id="hc" hidden>Borrar todo</button></div>
+</div></section>
+<section class="alt" id="chat"><div class="wrap">
+<h2 class="rv"><svg class="i"><use href="#chat"/></svg>Chat con Vernity</h2>
+<p class="lead rv">Hablá con el asistente del clan sobre tryouts, spars o cómo unirte. Tenés 8 mensajes de prueba; para seguir, unite al Discord.</p>
+<div class="chat rv"><div id="cm" aria-live="polite"></div>
+<div id="cg" hidden><b>Llegaste al límite de mensajes</b><p>Unite al Discord de Vernity para seguir la conversación con la comunidad.</p><a class="btn" href="https://discord.gg/FTcVa7kH9">Unirse al Discord</a></div>
+<form id="cf"><input class="fld" id="ci" maxlength="140" placeholder="Escribí tu mensaje" autocomplete="off" aria-label="Mensaje"><button class="btn" aria-label="Enviar"><svg class="i"><use href="#send"/></svg></button></form>
+<div class="cmeta"><span id="cc">8 mensajes restantes</span><span>Moderación automática activa</span></div></div>
+</div></section>
+<section class="final"><div class="wrap">
+<h2 class="rv"><svg class="i"><use href="#rocket"/></svg>¿Listo para entrenar en serio?</h2>
+<p>Entrá a Vernity y empezá tu camino hacia el competitivo de TSB.</p>
+<div class="row"><a class="btn" href="https://discord.gg/FTcVa7kH9"><svg class="i"><use href="#chat"/></svg>Unirse al Discord</a></div>
+<div class="grid" style="margin-top:2.4rem;max-width:620px;margin-inline:auto">
+<div class="card soon"><b>TikTok</b><p>Próximamente</p></div><div class="card soon"><b>Instagram</b><p>Próximamente</p></div><div class="card soon"><b>YT Shorts</b><p>Próximamente</p></div></div>
+</div></section>
+</main>
+
+<footer><div class="wrap"><span>© Vernity · TSB Competitive · Afiliado a TSBL</span><span>Atajos: / buscar · T tema · M menú · G arriba</span></div></footer>
+<button class="ib btn" id="up" aria-label="Volver arriba" style="width:48px;height:48px;padding:0;justify-content:center"><svg class="i"><use href="#up"/></svg></button>
+<dialog id="dl"><h3>¿Eliminar?</h3><p id="dt">Esta acción no se puede deshacer.</p><div class="row" style="justify-content:flex-end"><button class="btn s g" id="dn">Cancelar</button><button class="btn s" id="dy" style="background:var(--er)">Eliminar</button></div></dialog>
+
+<script>
+const $=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)],R=document.documentElement,INV='https://discord.gg/FTcVa7kH9';
+const st={g(k,d){try{const v=JSON.parse(localStorage.getItem(k));return v==null?d:v}catch(e){return d}},s(k,v){try{localStorage.setItem(k,JSON.stringify(v))}catch(e){}}};
+function toast(m,er){const t=document.createElement('div');t.className='t'+(er?' er':'');t.innerHTML='<svg class="i"><use href="#'+(er?'alert':'check')+'"/></svg>';t.append(m);$('#ts').append(t);setTimeout(()=>t.remove(),3200)}
+async function copy(t,ok){try{await navigator.clipboard.writeText(t);toast(ok||'Copiado')}catch(e){toast('No se pudo copiar. Copialo manualmente.',1)}}
+// loader
+requestAnimationFrame(()=>$('#lb').style.width='100%');
+addEventListener('load',()=>setTimeout(()=>{$('#ld').style.cssText='opacity:0;visibility:hidden;transition:.4s'},900));
+// tema + tamaño
+function setTh(t){if(t)R.dataset.theme=t;const l=(R.dataset.theme||(matchMedia('(prefers-color-scheme:light)').matches?'light':'dark'))==='light';$('#th use').setAttribute('href',l?'#sun':'#moon')}
+function togTh(){const l=(R.dataset.theme||(matchMedia('(prefers-color-scheme:light)').matches?'light':'dark'))==='light';const n=l?'dark':'light';st.s('v_th',n);setTh(n)}
+setTh(st.g('v_th',null));$('#th').onclick=togTh;
+const SZ=[16,18,20];let zi=st.g('v_fs',0);R.style.fontSize=SZ[zi]+'px';
+$('#fs').onclick=()=>{zi=(zi+1)%3;R.style.fontSize=SZ[zi]+'px';st.s('v_fs',zi);toast('Texto: '+['normal','grande','extra grande'][zi])};
+// menú lateral
+const dr=(o)=>{$('#dr').classList.toggle('o',o);$('#ov').classList.toggle('o',o);$('#mb').setAttribute('aria-expanded',!!o)};
+$('#mb').onclick=()=>dr(1);$('#dx').onclick=$('#ov').onclick=()=>dr(0);$$('#dr a').forEach(a=>a.onclick=()=>dr(0));
+// scroll
+const up=$('#up');addEventListener('scroll',()=>{const h=R.scrollHeight-innerHeight;$('#sp').style.width=(h>0?scrollY/h*100:0)+'%';up.classList.toggle('v',scrollY>500)},{passive:true});
+up.onclick=()=>scrollTo({top:0});
+const io='IntersectionObserver'in window?new IntersectionObserver(e=>e.forEach(x=>{if(x.isIntersecting){x.target.classList.add('in');io.unobserve(x.target)}}),{threshold:.12}):null;
+$$('.rv').forEach(e=>io?io.observe(e):e.classList.add('in'));
+// copiar / compartir
+$('#cp').onclick=()=>copy(INV,'Invitación copiada');
+$('#sh').onclick=async()=>{if(navigator.share){try{await navigator.share({title:'Vernity',text:'Clan competitivo de TSB',url:INV})}catch(e){}}else copy(INV,'Invitación copiada')};
+// normativas
+const RL=[['General','Respeto ante todo','Nada de insultos, discriminación ni toxicidad. Tratá a todos como querés que te traten.'],['General','Sin spam ni publicidad','No promociones otros servidores ni envíes mensajes repetidos.'],['General','Cada canal con su tema','Usá cada canal para lo que fue creado y mantené el orden.'],['Competitivo','Juego limpio','Prohibido usar exploits, scripts o cuentas alternas para ganar ventaja.'],['Competitivo','Compromiso con spars y tryouts','Si confirmás, asistí. Si no podés, avisá con anticipación.'],['Competitivo','Pedí y dá feedback con buen tono','Las derrotas sirven para mejorar. Criticá la jugada, no a la persona.'],['Comunidad','Idiomas oficiales','Usamos PT, ES y EN. Escribí de forma clara para que todos entiendan.'],['Comunidad','Indicaciones del staff','Seguí las indicaciones del staff. Si no estás de acuerdo, hablalo en privado.'],['Comunidad','Normas de Discord y Roblox','Cumplí los términos de servicio de ambas plataformas.']];
+let cat='Todas';const CS=['Todas',...new Set(RL.map(r=>r[0]))];
+$('#rl').innerHTML=RL.map(r=>`<details data-c="${r[0]}"><summary>${r[1]}<small style="color:var(--mut);font-weight:400">${r[0]}</small></summary><p>${r[2]}</p></details>`).join('');
+$('#cats').innerHTML=CS.map(c=>`<button class="chip${c==='Todas'?' on':''}" aria-pressed="${c==='Todas'}">${c}</button>`).join('');
+function flt(){const q=$('#q').value.toLowerCase().trim();let n=0;$$('#rl details').forEach(d=>{const s=(cat==='Todas'||d.dataset.c===cat)&&d.textContent.toLowerCase().includes(q);d.hidden=!s;n+=s});$('#nr').hidden=n>0}
+$$('#cats .chip').forEach(b=>b.onclick=()=>{cat=b.firstChild.textContent;$$('#cats .chip').forEach(x=>{x.classList.toggle('on',x===b);x.setAttribute('aria-pressed',x===b)});flt()});
+$('#q').oninput=flt;
+function esc(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
+// tryout
+let H=st.g('v_tryouts',[]),pend=null;
+function rh(){$('#pr2').innerHTML=H.map(x=>`<li style="list-style:none;display:flex;justify-content:space-between;gap:1rem;align-items:center;background:var(--card);border:1px solid var(--line);border-radius:12px;padding:.7rem 1rem;margin-bottom:8px"><span><b>${esc(x.n)}</b> · ${x.l}<br><small style="color:var(--mut)">${x.d}</small></span><button class="ib" data-id="${x.id}" aria-label="Eliminar solicitud"><svg class="i"><use href="#trash"/></svg></button></li>`).join('');$('#he').hidden=H.length>0;$('#hc').hidden=!H.length}
+rh();
+$('#fm').onsubmit=e=>{e.preventDefault();const n=$('#fn').value.trim(),m=$('#fe');
+if(n.length<3){m.className='msg er';m.textContent='El usuario debe tener entre 3 y 20 caracteres.';$('#fn').focus();return}
+if(!/^[\w]+$/.test(n)){m.className='msg er';m.textContent='Usá solo letras, números y guion bajo.';return}
+const x={id:Date.now(),n,l:$('#fl').value,g:$('#fmsg').value.trim(),d:new Date().toLocaleDateString('es-AR')};H.unshift(x);st.s('v_tryouts',H);rh();
+m.className='msg ok';m.textContent='Solicitud guardada.';$('#fm').reset();
+copy(`Solicitud de tryout Vernity\nRoblox: ${x.n}\nIdioma: ${x.l}\nExperiencia: ${x.g||'-'}`,'Guardada y copiada. Pegala en el Discord.')};
+$('#pr2').onclick=e=>{const b=e.target.closest('button');if(!b)return;pend=+b.dataset.id;$('#dt').textContent='Se eliminará esta solicitud. No se puede deshacer.';$('#dl').showModal()};
+$('#hc').onclick=()=>{pend='all';$('#dt').textContent='Se borrará todo tu historial. No se puede deshacer.';$('#dl').showModal()};
+$('#dn').onclick=()=>$('#dl').close();
+$('#dy').onclick=()=>{H=pend==='all'?[]:H.filter(x=>x.id!==pend);st.s('v_tryouts',H);rh();$('#dl').close();toast('Eliminado')};
+// chat
+const BS=`puta puto putas putos mierda pelotudo pelotuda concha conchudo hijodeputa forro forra trolo maricon marica cabron pendejo gilipollas culiao culiado verga chupapija sorete nigger nigga faggot fag retard tranny kys killyourself matate suicidate caralho porra buceta viado filhadaputa fodase merda cuzao arrombado fuck fucker shit bitch asshole cunt whore slut bastard dick pussy motherfucker`.split(' ').map(w=>w.replace(/(.)\1+/g,'$1'));
+const LT={'0':'o','1':'i','!':'i','3':'e','4':'a','@':'a','5':'s','$':'s','7':'t','+':'t'},cz=x=>x.replace(/(.)\1+/g,'$1');
+function bad(m){const n=m.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[01!345@$7+]/g,c=>LT[c]);
+const tk=n.split(/[^a-z]+/).filter(Boolean),o=[],rn=[];let run='';
+for(const t of tk){if(t.length===1)run+=t;else{if(run){rn.push(run);run=''}o.push(cz(t))}}if(run)rn.push(run);
+if(o.some(t=>BS.includes(t)||BS.includes(t.replace(/s$/,''))))return 1;
+if(rn.some(r=>r.length>=4&&BS.some(w=>cz(r).includes(w))))return 1;
+const sq=cz(n.replace(/[^a-z]/g,''));return BS.some(w=>w.length>=6&&sq.includes(w))}
+const LIM=8,AI_URL='/.netlify/functions/chat',hist=[],FAQ=[[/unir|entrar|join|invit|discord|ingres/,'Para unirte entrá al Discord con el botón de abajo. Hay canales en PT, ES y EN.'],[/tryout|prueba|staff|rol/,'Los tryouts evalúan tu progreso y abren la puerta a roles dentro del clan. Pedilo en el Discord.'],[/spar|pvp|pelea|duelo/,'En el Spar Zone te enfrentás de forma amistosa contra otros miembros. Activá los avisos en el Discord.'],[/torneo|top|competi/,'Hacemos torneos y tops organizados para medirnos contra otros clanes.'],[/idioma|ingles|english|portugu|espanol/,'Los idiomas oficiales son portugués, español e inglés.'],[/hola|buenas|hello|\boi\b|hey/,'Hola, soy el asistente de Vernity. Preguntame por tryouts, spars, torneos o cómo unirte.'],[/phase|fase|tier|nivel/,'TSBL clasifica tu nivel en Phases, de la 0 (nivel supremo, máximo de LATAM) a la 5 (nuevo en TSBL). Dentro de cada Phase hay Tiers (High, Mid, Low) y Sub-Tiers (Strong, Stable, Weak).'],[/clan|vernity|trata/,'Vernity es un clan competitivo de TSB afiliado a TSBL, con spars, training, tryouts y torneos. Idiomas: PT, ES y EN.'],[/fund|fecha|cuando|cuándo/,'Vernity fue fundado el 2 de septiembre de 2026 por rralofear.']];
+let cn=st.g('v_cn',0),sk=st.g('v_sk',0),lock=st.g('v_lk',0),last=0;
+function say(t,c){const d=document.createElement('div');d.className='b '+c;d.textContent=t;$('#cm').append(d);$('#cm').scrollTop=1e5}
+function cui(){const left=LIM-cn;$('#cc').textContent=left>0?left+(left===1?' mensaje restante':' mensajes restantes'):'Sin mensajes restantes';if(left<=0){$('#cf').hidden=true;$('#cg').hidden=false}}
+say('Hola, soy el asistente de Vernity. Preguntame por tryouts, spars, torneos o cómo unirte.','');cui();
+$('#cf').onsubmit=e=>{e.preventDefault();const v=$('#ci').value.trim();if(!v||cn>=LIM)return;
+if(Date.now()<lock){say('Chat bloqueado temporalmente por incumplir las normas.','sys');return}
+if(Date.now()-last<2000){say('Esperá un momento antes de enviar otro mensaje.','sys');return}
+if(/(https?:\/\/|www\.|discord\.(gg|com)|\.gg\/)/i.test(v)){say('No se permiten enlaces en el chat.','sys');return}
+if(v.length>8&&v.replace(/[^A-Z]/g,'').length/v.replace(/[^A-Za-z]/g,'').length>.7){say('Evitá escribir todo en mayúsculas.','sys');return}
+if(bad(v)){sk++;st.s('v_sk',sk);$('#ci').value='';if(sk>=3){lock=Date.now()+6e5;st.s('v_lk',lock);sk=0;st.s('v_sk',0);say('Mensaje bloqueado. Chat suspendido 10 minutos por lenguaje ofensivo.','sys')}else say('Mensaje bloqueado por lenguaje ofensivo. Advertencia '+sk+' de 3.','sys');return}
+last=Date.now();$('#ci').value='';say(v,'me');cn++;st.s('v_cn',cn);cui();
+const q=v.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,''),f=FAQ.find(x=>x[0].test(q));
+bot(v,f)};
+async function bot(v,f){hist.push({role:'user',content:v});let r=null;if(!/claude\.ai|claudeusercontent/.test(location.hostname)){try{const x=await fetch(AI_URL,{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({messages:hist.slice(-8)})});if(x.ok)r=(await x.json()).reply}catch(e){}}
+r=r||(f?f[1]:'No tengo esa respuesta. Para hablar con la comunidad, unite al Discord.');hist.push({role:'assistant',content:r});say(r,'');if(cn>=LIM)say('Llegaste al límite. Unite al Discord para seguir hablando con la comunidad.','')}
+// spar
+const GUILD='1544855239914426408',SPAR='1544929753730125856';
+$('#sparlink').href='https://discord.com/channels/'+GUILD+'/'+SPAR;
+// atajos
+addEventListener('keydown',e=>{if(e.ctrlKey||e.metaKey||e.altKey||/INPUT|TEXTAREA|SELECT/.test(e.target.tagName))return;
+const k=e.key.toLowerCase();if(k==='/'){e.preventDefault();$('#q').focus();$('#normas').scrollIntoView()}else if(k==='t')togTh();else if(k==='m')dr(!$('#dr').classList.contains('o'));else if(k==='g')scrollTo({top:0})});
+</script>
+</body>
+</html>
